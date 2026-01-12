@@ -1,3 +1,4 @@
+/*Container of the Snowman*/
 .container {
     width:800px;
     height:800px;
@@ -5,6 +6,17 @@
     background-color: skyblue;
     display:flex;
 }
+
+.sun {
+    position: absolute;
+    height: 200px;         
+    width: 200px;         
+    background-color: yellow; 
+    border-radius: 50%; 
+    top: 50px;
+    left:585px;
+}
+
 
 /*Snowman's Hat*/
 .tophat {
@@ -15,7 +27,6 @@
     width: 45px;
     border: 2px solid  ;
     background-color: green;
-    z-index: 2;
 }
 
 .bottomhat {
@@ -24,9 +35,8 @@
     height: 79px;
     border: 2px solid ;
     background-color: green;
-    top: 250px;
+    top: 10px;
     left: 398px;
-    z-index: 2;
     /* Apply the rotation */
     transform: rotate(90deg);
 }
@@ -53,6 +63,9 @@
     border-radius: 50%; 
     top: 400px;
     left:306px;
+    box-shadow: 15px 10px 5px 1px rgba( 0, 0, 0, .8);
+    z-index: 2;
+}
 
 .bottomhat {
     position:absolute;
@@ -62,21 +75,25 @@
     background-color: green;
     top: 250px;
     left: 398px;
-    z-index: 2;
+    z-index: 1;
     /* Apply the rotation */
-    transform: rotate(45deg);
+    transform: rotate(deg);
 }
 
 /*The Snowman's bottom*/
-}.bottom {
+.bottom {
     position: absolute;
     height: 255px;         
     width: 255px;          
     background-color: whitesmoke; 
     border-radius: 50%; 
-    top: 550px;
+    top: 555px;
     left:283px;
+    box-shadow: 15px 8px 5px .5px rgba( 0, 0, 0, .8);
+    z-index: 2;
 }
+
+
 
 /*The Snowman's Eyes*/
 .eye1 {
@@ -131,7 +148,7 @@
     width: 10px;          
     background-color: black; 
     border-radius: 50%; 
-    top: 99px;
+    top: 96px;
     left:48px;
 }
 
@@ -141,9 +158,8 @@
     width: 10px;          
     background-color: black; 
     border-radius: 50%; 
-    top: 105px;
+    top: 100px;
     left: 70px;
-    z-index: 2;
 }
 
 .coal4 {
@@ -152,7 +168,7 @@
     width: 10px;          
     background-color: black; 
     border-radius: 50%; 
-    top: 100px;
+    top: 98px;
     left: 93px;
     z-index: 2;
 }
@@ -172,25 +188,24 @@
 /*Button on the Snowman*/
 .button1 {
     position: absolute;
-    height: 55px;         
-    width: 55px;          
-    background-color: green; 
+    height: 40px;         
+    width: 40px;          
+    background-color: blue; 
     border-radius: 50%; 
-    top: 35px;
-    left:75px;
-    z-index: 2;
+    top: 40px;
+    left:84px;
 }
 
 
 .button2 {
     position: absolute;
-    height: 55px;         
-    width: 55px;          
-    background-color: green; 
+    height: 40px;         
+    width: 40px;          
+    background-color: blue; 
     border-radius: 50%; 
-    top: 109px;
-    left: 75px;
-    z-index: 2;
+    top: 110px;
+    left: 84px;
+    z-index: 5;
 }
 
 
@@ -198,10 +213,10 @@
     position: absolute;
     height: 100px;         
     width: 100px;         
-    background-color: green; 
+    background-color: blue; 
     border-radius: 50%; 
-    top: 60px;
-    left:75px;
+    top: 85px;
+    left:77px;
     z-index: 2;
 }
 /*END of Buttons*/
