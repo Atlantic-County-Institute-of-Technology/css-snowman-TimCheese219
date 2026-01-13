@@ -15,6 +15,7 @@
     border-radius: 50%; 
     top: 50px;
     left:585px;
+    box-shadow: 15px 8px 5px .5px rgba(243, 188, 6, 0.8);
 }
 
 
@@ -52,6 +53,7 @@
     border-radius: 50%; 
     top: 290px;
     left:330px;
+    box-shadow: 15px 8px 5px .5px rgba( 0, 0, 0, .8);
 }
 
 /*The Snowman's Body*/
